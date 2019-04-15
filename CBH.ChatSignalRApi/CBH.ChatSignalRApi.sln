@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBH.ChatSignalR.Web.Services", "CBH.ChatSignalR.Web.Services\CBH.ChatSignalR.Web.Services.csproj", "{606507E3-62B6-457E-A11A-01E2AB38092A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBH.ChatSignalR.Business", "CBH.ChatSignalR.Business\CBH.ChatSignalR.Business.csproj", "{BD005687-E464-4D32-A4B3-D03F71F869E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChatSignalR", "ChatSignalR", "{1D0356CD-6835-4C55-97C9-AE07BBC7C376}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBH.ChatSignalR.DependencyInjection", "CBH.ChatSignalR.DependencyInjection\CBH.ChatSignalR.DependencyInjection.csproj", "{54776171-BF0D-4F81-B204-AF6ADA693001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBH.ChatSignalR.Domain", "CBH.ChatSignalR.Domain\CBH.ChatSignalR.Domain.csproj", "{C4456CA0-6DBF-4330-84DF-B0047127EAFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBH.ChatSignalR.Infrastructure", "CBH.ChatSignalR.Infrastructure\CBH.ChatSignalR.Infrastructure.csproj", "{61944425-FBEC-4708-9703-1FEF869A97FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBH.ChatSignalR.Interfaces", "CBH.ChatSignalR.Interfaces\CBH.ChatSignalR.Interfaces.csproj", "{3EB39FFA-6372-4810-8C58-4B0762C3243A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBH.ChatSignalR.Repository", "CBH.ChatSignalR.Repository\CBH.ChatSignalR.Repository.csproj", "{89535F5A-A8CF-4F5D-9504-56A5A5D3B940}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CBH.ChatSignalR.Business.Tests", "CBH.ChatSignalR.Business.Tests\CBH.ChatSignalR.Business.Tests.csproj", "{B24D1F3C-A59A-4ED7-9733-A321E86F7E54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{606507E3-62B6-457E-A11A-01E2AB38092A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606507E3-62B6-457E-A11A-01E2AB38092A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606507E3-62B6-457E-A11A-01E2AB38092A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606507E3-62B6-457E-A11A-01E2AB38092A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD005687-E464-4D32-A4B3-D03F71F869E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD005687-E464-4D32-A4B3-D03F71F869E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD005687-E464-4D32-A4B3-D03F71F869E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD005687-E464-4D32-A4B3-D03F71F869E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54776171-BF0D-4F81-B204-AF6ADA693001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54776171-BF0D-4F81-B204-AF6ADA693001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54776171-BF0D-4F81-B204-AF6ADA693001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54776171-BF0D-4F81-B204-AF6ADA693001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4456CA0-6DBF-4330-84DF-B0047127EAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4456CA0-6DBF-4330-84DF-B0047127EAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4456CA0-6DBF-4330-84DF-B0047127EAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4456CA0-6DBF-4330-84DF-B0047127EAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61944425-FBEC-4708-9703-1FEF869A97FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61944425-FBEC-4708-9703-1FEF869A97FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61944425-FBEC-4708-9703-1FEF869A97FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61944425-FBEC-4708-9703-1FEF869A97FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB39FFA-6372-4810-8C58-4B0762C3243A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB39FFA-6372-4810-8C58-4B0762C3243A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB39FFA-6372-4810-8C58-4B0762C3243A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB39FFA-6372-4810-8C58-4B0762C3243A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89535F5A-A8CF-4F5D-9504-56A5A5D3B940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89535F5A-A8CF-4F5D-9504-56A5A5D3B940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89535F5A-A8CF-4F5D-9504-56A5A5D3B940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89535F5A-A8CF-4F5D-9504-56A5A5D3B940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24D1F3C-A59A-4ED7-9733-A321E86F7E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24D1F3C-A59A-4ED7-9733-A321E86F7E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24D1F3C-A59A-4ED7-9733-A321E86F7E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24D1F3C-A59A-4ED7-9733-A321E86F7E54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD005687-E464-4D32-A4B3-D03F71F869E0} = {1D0356CD-6835-4C55-97C9-AE07BBC7C376}
+		{54776171-BF0D-4F81-B204-AF6ADA693001} = {1D0356CD-6835-4C55-97C9-AE07BBC7C376}
+		{C4456CA0-6DBF-4330-84DF-B0047127EAFB} = {1D0356CD-6835-4C55-97C9-AE07BBC7C376}
+		{61944425-FBEC-4708-9703-1FEF869A97FC} = {1D0356CD-6835-4C55-97C9-AE07BBC7C376}
+		{3EB39FFA-6372-4810-8C58-4B0762C3243A} = {1D0356CD-6835-4C55-97C9-AE07BBC7C376}
+		{89535F5A-A8CF-4F5D-9504-56A5A5D3B940} = {1D0356CD-6835-4C55-97C9-AE07BBC7C376}
+		{B24D1F3C-A59A-4ED7-9733-A321E86F7E54} = {1D0356CD-6835-4C55-97C9-AE07BBC7C376}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21FA98F6-65E7-4FEE-804D-C77B53ACE0D7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsserver.credibleinc.com:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CBH.ChatSignalR.Business.Tests\\CBH.ChatSignalR.Business.Tests.csproj
+		SccProjectTopLevelParentUniqueName1 = CBH.ChatSignalRApi.sln
+		SccProjectName1 = CBH.ChatSignalR.Business.Tests
+		SccLocalPath1 = CBH.ChatSignalR.Business.Tests
+		SccProjectUniqueName2 = CBH.ChatSignalR.Business\\CBH.ChatSignalR.Business.csproj
+		SccProjectTopLevelParentUniqueName2 = CBH.ChatSignalRApi.sln
+		SccProjectName2 = CBH.ChatSignalR.Business
+		SccLocalPath2 = CBH.ChatSignalR.Business
+		SccProjectUniqueName3 = CBH.ChatSignalR.DependencyInjection\\CBH.ChatSignalR.DependencyInjection.csproj
+		SccProjectTopLevelParentUniqueName3 = CBH.ChatSignalRApi.sln
+		SccProjectName3 = CBH.ChatSignalR.DependencyInjection
+		SccLocalPath3 = CBH.ChatSignalR.DependencyInjection
+		SccProjectUniqueName4 = CBH.ChatSignalR.Domain\\CBH.ChatSignalR.Domain.csproj
+		SccProjectTopLevelParentUniqueName4 = CBH.ChatSignalRApi.sln
+		SccProjectName4 = CBH.ChatSignalR.Domain
+		SccLocalPath4 = CBH.ChatSignalR.Domain
+		SccProjectUniqueName5 = CBH.ChatSignalR.Infrastructure\\CBH.ChatSignalR.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName5 = CBH.ChatSignalRApi.sln
+		SccProjectName5 = CBH.ChatSignalR.Infrastructure
+		SccLocalPath5 = CBH.ChatSignalR.Infrastructure
+		SccProjectUniqueName6 = CBH.ChatSignalR.Interfaces\\CBH.ChatSignalR.Interfaces.csproj
+		SccProjectTopLevelParentUniqueName6 = CBH.ChatSignalRApi.sln
+		SccProjectName6 = CBH.ChatSignalR.Interfaces
+		SccLocalPath6 = CBH.ChatSignalR.Interfaces
+		SccProjectUniqueName7 = CBH.ChatSignalR.Repository\\CBH.ChatSignalR.Repository.csproj
+		SccProjectTopLevelParentUniqueName7 = CBH.ChatSignalRApi.sln
+		SccProjectName7 = CBH.ChatSignalR.Repository
+		SccLocalPath7 = CBH.ChatSignalR.Repository
+		SccProjectUniqueName8 = CBH.ChatSignalR.Web.Services\\CBH.ChatSignalR.Web.Services.csproj
+		SccProjectName8 = CBH.ChatSignalR.Web.Services
+		SccLocalPath8 = CBH.ChatSignalR.Web.Services
+	EndGlobalSection
+EndGlobal

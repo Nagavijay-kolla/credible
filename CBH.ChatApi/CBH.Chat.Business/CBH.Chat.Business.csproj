@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="CBH.Common.Security" Version="2.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CBH.Chat.Domain\CBH.Chat.Domain.csproj" />
+    <ProjectReference Include="..\CBH.Chat.Infrastructure\CBH.Chat.Infrastructure.csproj" />
+    <ProjectReference Include="..\CBH.Chat.Interfaces\CBH.Chat.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
